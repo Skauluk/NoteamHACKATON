@@ -25,8 +25,9 @@ html, body{
 	font-size: 24px;
 	line-height: 20px;
 	font-weight: normal;
-	
+	z-index: 1000;
 }
+
 
 .text span{
 	color:#72898f;
@@ -63,7 +64,7 @@ html, body{
 .swap{
 	display: none;
 	position: fixed;
-	width: 50px;
+	width: 43px;
 	left: 0;
 	top: 0;
 	height: 100%;
@@ -148,7 +149,7 @@ p img{
 	.wrapper{
 		padding-left: 50px;
 	}
-	img {
+	p img {
 		width: 	50%;
 	}
 }
